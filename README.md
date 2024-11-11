@@ -35,8 +35,8 @@ a<<5
 <<a;
 <<?end.
 
-? A=5
-? end.
+; A=5
+; end.
 ```
 
 ### 3. Math
@@ -57,6 +57,6 @@ c<<2^3
 <<c;
 <<?Good night.
 
-? 2^3=8
-? Good night.
+; 2^3=8
+; Good night.
 ```
