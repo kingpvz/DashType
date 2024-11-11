@@ -1,36 +1,36 @@
-?Welcome to DashType!
-?This is a sample program to calculate the hypotenuse of a triangle.
-?Let's first define a and b - our legs of a right triangle.
+;Welcome to DashType!
+;This is a sample program to calculate the hypotenuse of a triangle.
+;Let's first define a and b - our legs of a right triangle.
 a<<4
 b<<7
 
-?A simple calculation to get the hypotenuse.
+;A simple calculation to get the hypotenuse.
 c<<(a^2+b^2)^(1/2)
 
-?Let's output A=4 A^2=16
+;Let's output A=4 A^2=16
 <<?A=
 <<a
 <<? A^2=
 <<a^2;
-?We use semicolons in expressions to create a new line.
+;We use semicolons in expressions to create a new line.
 
-?Let's output B=7 B^2=49
+;Let's output B=7 B^2=49
 <<?B=
 <<b
 <<? B^2=
 <<b^2;
 
-?Let's output the formula.
+;Let's output the formula.
 <<?C^2 = (A^2+B^2)
 <<;
-?Using semicolons in strings (starting with ?) will result in the being printed as, well, semicolons. So we added another output that will print an empty expression with a new line character.
+;Using semicolons in strings (starting with ?) will result in the being printed as, well, semicolons. So we added another output that will print an empty expression with a new line character.
 
-?Let's output C^2=65 (due to float problems, it will actually output something like 64.9999999999)
+;Let's output C^2=65 (due to float problems, it will actually output something like 64.9999999999)
 <<?C^2=
 <<c^2;
 <<;
-?An empty line.
+;An empty line.
 
-?Let's output the value of c.
+;Let's output the value of c.
 <<?C=
 <<c
